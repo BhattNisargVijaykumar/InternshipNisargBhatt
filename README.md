@@ -7,5 +7,4 @@ Day-1:-
   Install Android Studio,
   Hello World Application(First App).
 
-
 Day-2:-
