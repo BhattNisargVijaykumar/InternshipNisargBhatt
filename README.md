@@ -1,5 +1,5 @@
 # InternshipNisargBhatt
-Go to the Project and Check Daily Report
+**Go to the Project and Check Daily Report**
 Nisarg Bhatt Sem 6-7 Intermediate 14 Days(2 Weeks) Internship GEC, Modasa
 
 Day-1:-
