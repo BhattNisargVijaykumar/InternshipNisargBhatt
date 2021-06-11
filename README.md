@@ -19,7 +19,7 @@
 
 
 
-Day-1:-
+**Day-1:-**
 
 
   Information About Internship and Company,
@@ -28,7 +28,7 @@ Day-1:-
   
   Install Android Studio,
   
-Day-2:-
+**Day-2:-**
 
 
   Android Studio Specifications,
@@ -39,7 +39,7 @@ Day-2:-
 
   Hello World First Program.
 
-Day-3:-
+**Day-3:-**
 
 
   View,
@@ -48,14 +48,14 @@ Day-3:-
   
   Basic UI Controls.
   
-Day-4:-
+**Day-4:-**
 
 
   Basic UI Controls,
   
   Sum of Two Digit (Practical).
 
-Day-5:-
+**Day-5:-**
 
 
   Activity Life Cycle,
@@ -64,14 +64,14 @@ Day-5:-
   
   Send Data TO Another Activity
  
-Day-6:-
+**Day-6:-**
 
 
   Splash Screen,
   
   Add Music in Splash Screen.
 
-Day-7:-
+**Day-7:-**
 
 
   WebView,
@@ -82,19 +82,19 @@ Day-7:-
   
   ScrollView.
   
-Day-8:-
+**Day-8:-**
 
 
   Custom ListView,
   
   Custom GridView.
  
-Day-9:- 
+**Day-9:- **
 
 
   Shared Preference.
 
-Day-10:- 
+**Day-10:- **
 
 
   Call Service,
