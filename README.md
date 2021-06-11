@@ -1,7 +1,23 @@
 # InternshipNisargBhatt
-**Go to the Project and Check Daily Work**
 
-Nisarg Bhatt Sem 6-7 Intermediate 14 Days(2 Weeks) Internship GEC, Modasa
+
+**Nisarg Vijaykumar Bhatt **
+
+**Sem 6-7 Intermediate 14 Days(2 Weeks, 25th May to 14th June) Internship 
+**
+**College Name:-** Government Engineering College, Modasa
+
+**Enrollment No:-** 190163116001
+
+**Faculty Mentor Name:-** Prof. Amit Parmar.
+
+**Summer Internship Detail:-**
+
+**Company Name:-** Akash Technolabs.
+
+**Thanks To:-** Akash Sir(CEO), Devanshi Ma'm(Android Developer).
+
+
 
 Day-1:-
 
