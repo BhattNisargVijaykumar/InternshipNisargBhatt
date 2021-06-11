@@ -89,12 +89,12 @@
   
   Custom GridView.
  
-**Day-9:- **
+**Day-9:-**
 
 
   Shared Preference.
 
-**Day-10:- **
+**Day-10:-**
 
 
   Call Service,
