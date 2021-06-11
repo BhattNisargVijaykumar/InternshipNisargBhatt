@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SMSPage"
+    android:orientation="vertical"
+    android:layout_margin="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Mobile Nnumber:"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number Here"
+        android:inputType="number"
+        android:maxLength="10"
+        android:id="@+id/numbersms"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Message to Send:"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message to Send Here"
+        android:inputType="textMultiLine"
+        android:id="@+id/messagesms"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:id="@+id/btnsms"/>
+
+
+    <Button
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Activity"
+        android:id="@+id/nextact"/>
+</LinearLayout>
