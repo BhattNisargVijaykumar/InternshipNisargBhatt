@@ -1,0 +1,10 @@
+My application name is Note.
+First I create a splash screen.
+Then create a home page with Search Note( Right Now Not Working ), Add URL, Add Image, Add Note with the use of Floating Action Button.
+It will redirect to the another activity for add NOTE.
+User add tere note with Image.
+User can add weblink into there note.
+User can give color into there note.
+User click on save button then it will save with SQLITE database using ROOM Persistency Library.
+Then it will redirect to home page and fetch all the notes from database and show them in the home page.
+It will conatain Many Bug and Error.
