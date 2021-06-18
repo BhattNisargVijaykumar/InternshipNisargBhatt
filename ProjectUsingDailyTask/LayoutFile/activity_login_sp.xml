@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Sp"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:includeFontPadding="false"
+        android:text="Login"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp">
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:background="@null"
+            android:fontFamily="@font/ubuntu_medium"
+            android:hint="Enter Email-Id"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            android:inputType="textMultiLine"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:textColor="@color/colorTextSubtitle"
+            android:textColorHint="@color/colorTextHint"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/view1"
+            app:layout_constraintTop_toBottomOf="@+id/lv"
+            tools:ignore="NotSibling" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="@dimen/_5sdp"
+            android:layout_height="55dp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:background="@drawable/background_view1_indicator"
+            app:layout_constraintBottom_toBottomOf="@id/etEmail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/etEmail"/>
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:background="@null"
+            android:fontFamily="@font/ubuntu_medium"
+            android:hint="Enter Password"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            android:inputType="textPassword"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:textColor="@color/colorTextSubtitle"
+            android:textColorHint="@color/colorTextHint"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/view2"
+            app:layout_constraintTop_toBottomOf="@+id/etEmail"
+            tools:ignore="NotSibling" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="@dimen/_5sdp"
+            android:layout_height="55dp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:background="@drawable/background_view2_indicator"
+            app:layout_constraintBottom_toBottomOf="@id/etPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/etPassword"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:hint="Enter Email"
+        android:id="@+id/etEmail"
+        android:textColorHint="@color/colorTextHint"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword"
+        android:textColorHint="@color/colorTextHint"
+        android:textSize="30sp"/>
+-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:text="Login"
+        android:id="@+id/btnSignin"
+        />
+
+    <LinearLayout
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="New user?"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_16ssp"
+            android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:text="sign up / Register"
+        android:id="@+id/btnsignup"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        />
+    </LinearLayout>
+</LinearLayout>

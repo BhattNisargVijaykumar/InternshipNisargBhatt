@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_data">
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:scaleType="fitXY"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/background_data"
+        android:layout_margin="5dp"
+        android:id="@+id/iv1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/list1"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="This is fruits"
+        android:layout_marginTop="30dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ubuntu_regular"
+        android:text="This is fruits"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        android:id="@+id/list2"/>
+
+    </LinearLayout>
+</LinearLayout>
